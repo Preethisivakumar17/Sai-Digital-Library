@@ -1,0 +1,72 @@
+nav{
+    background:black;
+    height: 80px;
+    width: 100%;
+}
+lable.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: grey;
+    transition: .5s;
+}
+.stdhead{
+    margin-left: 500px;
+}
+.stdlogo{
+    width: 200px;
+    height: 200px;
+}
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* On mouse-over */
+  .btn:hover {background: #656363;}
+  
+  .logout {color: white;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  .head1{
+    background-color: black;
+    color: white;
+  }
+  .head2{
+    background-color: black;
+    color: white;
+  }
+  .head3{
+    background-color: black;
+    color: white;
+  }  

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal | www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Admin </title>
+    <link rel="stylesheet" href="AD_dashboard.css">
+    <!-- Boxicons CDN Link -->
+    <!--<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Sai Digital Library</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="mainpg.html">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="addstud.html">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Add Student Details</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="addbook.html">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Add books</span>
+          </a>
+        </li>
+        <li>
+          <a href="update.html">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Update books</span>
+          </a>
+        </li>
+        <li>
+          <a href="addstud.html">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Update Student</span>
+          </a>
+        </li>
+        <li>
+          
+        <li class="log_out">
+          <a href="mainpg.html">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Administration</span>
+      </div>
+
+      
+      
+      <div class="profile-details">
+      
+        
+        <button class="admin_name">Admin</button>
+        
+      </div>
+    </nav>
+    
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        
+        <div>Sai Digital Library is one of the best library in Tamilnadu.Here Number of school/college students registered and use this library worthfully.
+          Here we give only 4 books for one particular student.The student should have the book only for 15 days. After 15days the student should return the book on time.
+          If the student delayed while returning the book,the library admin should collect the fine.
+        </div>
+        <div class="number">
+          <h3>
+        <div>Number of Books in the Library:1000</div>
+        <div>Number of students registered in the library:345</div>
+        <div>Number of books currently in the library:768</div> </h3>
+      </div>
+
+
+
+      </div> 
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">DETAILS</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">S.No</li>
+              <li><a href="#">1.</a></li>
+              <li><a href="#">2.</a></li>
+              <li><a href="#">3.</a></li>
+              <li><a href="#">4.</a></li>
+              <li><a href="#">5.</a></li>
+              <li><a href="#">6.</a></li>
+              <li><a href="#">7.</a></li>
+              <li><a href="#">8.</a></li>
+              <li><a href="#">9.</a></li>
+            </ul>
+            <ul class="details">
+            <li class="topic">Book name</li>
+            <li><a href="#">Engineering Math </a></li>
+            <li><a href="#">The Power</a></li>
+            <li><a href="#">Principles  </a></li>
+            <li><a href="#">Memory</a></li>
+            <li><a href="#">WINGS OF FIRE</a></li>
+            <li><a href="#">OS</a></li>
+            <li><a href="#">DAA</a></li>
+            <li><a href="#">DAA</a></li>
+             <li><a href="#">DAA</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Author name</li>
+            <li><a href="#">T.K.V iyyengar</a></li>
+            <li><a href="#">joseph murphy</a></li>
+            <li><a href="#">SIA</a></li>
+            <li><a href="#">William Walker Atkinson</a></li>
+            <li><a href="#">A.P.J Abdul kalam</a></li>
+            <li><a href="#">Silberschatz</a></li>
+            <li><a href="#">Anany Levitin </a></li>
+             <li><a href="#">S. Sridhar </a></li>
+            <li><a href="#">V.V. Muniswamy</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Date of return</li>
+            <li><a href="#">29.09.2023</a></li>
+            <li><a href="#">29.09.2023</a></li>
+            <li><a href="#">29.09.2023</a></li>
+            <li><a href="#">29.09.2023</a></li>
+            <li><a href="#">29.09.2023</a></li>
+            <li><a href="#">29.09.2023</a></li>
+            <li><a href="#">29.09.2023</a></li>
+             <li><a href="#">29.09.2023</a></li>
+             <li><a href="#">29.09.2023</a></li>
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
